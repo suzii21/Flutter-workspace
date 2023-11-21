@@ -1,0 +1,105 @@
+//1. What is inheritance?
+The process in which one class derive the properties of another class
+
+//2. Which inheritance is not supported by Dart? Why?
+it is dynamic language that why not supported.In Dart multiple inheritance is not supported.
+inheritance is easy to use.
+
+//3. What is advantage of inheritance?
+Inheritance can save time and effort as the main code need not be written again.
+
+//4. Difference between inheritance and encapsulation.
+Encapsulation is a Wrapping up the data.
+Inheritance  is derived from one class to another class.
+
+//5. Difference between inheritance and abstraction.
+Inheritance  is derived from one class to another class. while
+Abstraction allows Hiding Internal Details and Showing
+Functionalities.
+
+//6. Difference between inheritance and polymorphism.
+Inheritance  is derived from one class to another class.
+The word polymorphism means having multiple forms
+
+//7. Can we override static method in Dart?
+No, you cannot override a static method in Dart because static methods belong
+to the class itself
+
+//8. Can we overload static method in Dart?
+No, we cannot overload static methods in Dart. The concept of overloading
+should create multiple methods with the same name but different parameters.
+
+//9. Can a class implement more than one interface?
+Yes, a class can implement more than one interface
+
+//10. Can a class extend more than one class in Dart?
+No, a class can only extend to one class
+
+//11. Can an interface extend more than one interface in Dart?
+Yes, an interface in Dart can extend more than one interface.
+
+//12. What will happen if a class implements two interfaces and they both have a method
+//with same name and signature?
+if class implement two interfaces and both have a same name and signature then only one
+method will be shown.
+
+//13. Can we pass an object of a subclass to a method expecting an object of the super
+//class?
+yes
+
+//14. Are static members inherited to sub classes?
+yes
+
+//15. What happens if the parent and the child class have a field with same identifier?
+It will hide the parent class field
+
+//16. Are constructors and initializers also inherited to sub classes?
+No
+
+//17. How do you restrict a member of a class from inheriting by its sub classes?
+There is no direct way to restrict a member of a class from inheriting by its subclasses
+
+//18. How do you implement multiple inheritance in Dart? Can a class extend by itself in
+//Dart?
+we can not implement multiple inheritance in dart.
+No a class cannot extend by itself in Dart.
+
+//19. How do you override a private method in Dart?
+We cannot override private methods in dart
+
+//20. When to overload a method in Dart and when to override it?
+when override a method then we have to use abstract
+and overloading then we have to use optional parameter.
+
+//21. What the order is of extends and implements keyword on Dart class declaration?
+
+
+//23. How do you prevent overriding a Dart method without using the final modifier?
+
+
+//24. What are the rules of method overriding in Dart?
+The return type should be the same as present in the superclass.
+
+//22. Difference between method overriding and overloading in Dart.
+overriding method support in Dart
+overloading is not supported in Dart
+
+//23. What happens when a class implements two interfaces and both declare field
+//(variable) with same name?
+When a class implements two interfaces and both declare field (variable) with the
+same name a compilation error will occur.
+
+//24. Can a subclass instance method override a superclass static method?
+No an instance method cannot override a static method.
+
+//25. Can a subclass static method hide superclass instance method?
+Can a subclass static method cannot hide superclass instance method
+
+//26. Can a superclass access subclass member?
+No
+
+//27. Difference between object oriented and object based language.
+Object Oriented: Does support features like inheritance,
+polymorphism, encapsulation and abstraction.
+
+Object Based: Does not support inheritance and polymorphism.
